@@ -2,7 +2,9 @@ import React from 'react';
 import Weather from '../../components/Weather';
 
 const WeatherScreen = () => (
-  <Weather />
+  <div className="container">
+    <Weather />
+  </div>
 );
 
 export default WeatherScreen;
